@@ -13,11 +13,11 @@
     ],
     "require": {
         "php": ">=7.1.0",
-        "symfony/event-dispatcher": "^5.0",
-        "symfony/property-access": "^5.0",
-        "symfony/validator": "^5.0",
-        "symfony/serializer": "^5.0",
-        "symfony/filesystem": "^5.0",
+        "symfony/event-dispatcher": "^5.4",
+        "symfony/property-access": "^5.4",
+        "symfony/validator": "^5.4",
+        "symfony/serializer": "^5.4",
+        "symfony/filesystem": "^5.4",
         "doctrine/common": "*",
         "vimex/storage-utils": "dev-master"
     },
