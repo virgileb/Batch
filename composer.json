@@ -19,7 +19,7 @@
         "symfony/serializer": "^5.4",
         "symfony/filesystem": "^5.4",
         "doctrine/common": "*",
-        "vimex/storage-utils": "dev-master"
+        "vimex/storage-utils": "dev-symfony-5"
     },
     "config": {
         "bin-dir": "bin"
