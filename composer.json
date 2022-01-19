@@ -19,6 +19,7 @@
         "symfony/serializer": "^5.4",
         "symfony/filesystem": "^5.4",
         "doctrine/common": "*",
+        "vimex/storage-utils": "dev-symfony-5"
     },
     "config": {
         "bin-dir": "bin"
@@ -26,5 +27,11 @@
     "autoload": {
         "psr-4": { "Akeneo\\Component\\Batch\\": "" }
     },
-    "minimum-stability": "dev"
+    "minimum-stability": "dev",
+    "repositories": [
+        {
+            "url": "https://github.com/virgileb/StorageUtils",
+            "type": "git"
+        }
+    ]
 }
