@@ -3,7 +3,7 @@
 namespace Akeneo\Component\Batch\Event;
 
 use Akeneo\Component\Batch\Model\JobExecution;
-use Symfony\Component\EventDispatcher\Event;
+use Symfony\Contracts\EventDispatcher\Event;
 
 /**
  * Event triggered during job execution
